@@ -1,0 +1,30 @@
+# IDE, System & Tooling
+.idea/
+.kotlin/
+*.iml
+.DS_Store
+atlassian-ide-plugin.xml
+.deviceexplorer/
+*.lock
+.vscode/
+
+
+# Build Artifacts (The "Generated" Junk)
+build/
+app/build/
+flick_rust/target/
+.cxx/
+.gradle/
+*.so
+app/src/main/jniLibs/
+test/
+androidTest/
+jnilibs/
+
+# Local Configs (Private to your PC)
+local.properties
+
+# Optional Wrapper (The "bro remove that" stuff)
+gradle/
+gradlew
+gradlew.bat
